@@ -1,0 +1,18 @@
+.card{
+    background-color:lightseagreen;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.description{
+    margin-top: 30px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
