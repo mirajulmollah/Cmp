@@ -1,25 +1,25 @@
 //============================================================App.jsx
 
-
-
-import { useState } from 'react'
 import './App.css'
-import Card from './Card'
+
 
 function App() {
-  
+
 
   return (
     <>
-    <div className='container'>
-    <Card title="frist" description="This is my frist"/> 
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card title="Seconed" description="This is my seconed"/>
-    
-    </div>
+      <div>
+        <header className="max-w-[60rem] flex justify-between text-xl text-white/70 bg-amber-500 m-auto">
+          <h1><span className='font-extrabold text-[tomato]'>B</span>rand</h1>
+          <div className='flex gap-6'>
+            <a href="">Features</a>
+            <a href="">Use cases</a>
+            <a href="">Integrations</a>
+            <a href="">Protfolio</a>
+          </div>
+          <button>Sign us!</button>
+        </header>
+      </div>
     </>
   )
 }
