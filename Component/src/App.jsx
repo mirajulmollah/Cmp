@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <header className="max-w-[60rem] flex justify-between text-xl text-white/70 bg-amber-500 m-auto">
+        <header className="max-w-[60rem] mx-auto flex justify-between text-xl text-white/70 bg-amber-500">
           <h1><span className='font-extrabold text-[tomato]'>B</span>rand</h1>
           <div className='flex gap-6'>
             <a href="">Features</a>
